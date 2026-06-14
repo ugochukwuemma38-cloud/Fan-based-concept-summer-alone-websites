@@ -9,10 +9,10 @@ const trackNames = [
 ];
 
 const trackFiles = [
- "Donewithmyself.m4a",
- "Interdule.m4a",
- "that80sparty.m4a",
- "333.m4a"
+ "Donewithmyself.m4a.txt",
+ "Interdule.m4a.txt",
+ "that80sparty.m4a.txt",
+ "333.m4a.txt"
 ];
 
 
