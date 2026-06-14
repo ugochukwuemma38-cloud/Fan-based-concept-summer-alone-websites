@@ -1,0 +1,257 @@
+/*varible*/
+:root{
+  --accent-cool: #A0B4C8;
+  --accent:  #E8A045;
+  --background: #0d0d0d;
+  --text-color: #F0F0F0;
+  --font-display: 'Caveat';
+  --font-body: 'DM Sans';
+}
+
+/*globalreset*/
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/*mainpart*/
+body{
+  font-family: var(--font-body);
+  background-color: var(--background);
+  color: var(--text-color);
+  padding-bottom: 100px;
+}
+
+
+/*hero-section*/
+#hero{
+  background: linear-gradient(
+  rgba(0,0,0,.6),
+  rgba(0,0,0,.6)),
+   url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5Y6yfJFZxv65SJwrRGkIcGD1RvP-Nl-PvIbhkUyKPQPBZRq9O4XeiXbji&s=10.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero .container{
+  height: 100%;
+}
+
+
+h1{
+  font-family: var(--font-display);
+  font-size: 60px;
+  color: var(--text-color);
+}
+#hero p{
+  font-family: var(--font-body);
+  font-size: 20px;
+  color: rgba(240,240,240,0.7);
+}
+#hero .btn{
+background: var(--accent);
+  color: black;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 30px;
+  font-family: var(--font-body);
+}
+
+
+/*BIO-SECTION*/
+#bio{
+  padding: 80px 50px;
+  background: transparent;
+}
+#bio h2{
+  font-family: var(--font-display);
+  font-size: 36px;
+  color: var(--accent);
+}
+
+#bio p{
+  font-family: var(--font-body);
+  font-size: 17px;
+  color: rgba(240,240,240,0.7);
+  line-height: 1.7;
+}
+
+.music-toggler h3{
+  font-family: var(--font-display);
+  
+}
+  
+ .music-toggler ul{
+    
+    list-style: none;
+  }
+  
+  
+  
+.music-toggler button{
+  background: transparent;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  border-radius: 20px;
+  padding: 5px 16px;
+  font-family: var(--font-body);
+  margin-bottom: 5px;
+}
+
+.sociallinks h3{
+  font-family: var(--font-display);
+}
+
+.sociallinks ul{
+  list-style: none;
+}
+
+.sociallinks a{
+  text-decoration: none;
+  color: var(--accent);
+}
+
+/*MERCH-SECTION*/
+
+#MERCH {
+  background: #1a1a1a;
+  padding: 20px 20px;
+}
+
+#MERCH h2{
+  font-family: var(--font-display);
+  color: var(--accent);
+  font-size: 36px;
+}
+
+.product-img{
+  background: #242424;
+  border-radius: 20px;
+  padding: 10px 15px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.5);
+  margin-bottom: 10px;
+} 
+ #MERCH .btn {
+  background: var(--accent);
+  color: black;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-family: var(--font-body);
+ }
+ 
+ 
+ /*tours-section*/
+ #tours{
+   background: transparent;
+   padding: 50px 50px;
+ }
+#tours .row{
+  border-bottom: 1px solid rgba(255,255,255,.1);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+ 
+ #tours h2{
+   font-family: var(--font-display);
+   color: var(--accent);
+   font-size: 36px;
+ }
+ #tours h4{
+   font-family: var(--font-display);
+   color: var(--accent);
+   font-size: 20px;
+ }
+ #tours p{
+   font-size: 13px;
+    font-family: var(--font-body);
+  color: rgba(240,240,240,0.7);
+ }
+ #tours a{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-decoration: none;
+   color: var(--accent);
+   margin-bottom: 20px;
+   padding: 5px 5px;
+   outline: none;
+   display: block;
+   margin-top: 20px;
+   
+ }
+ 
+ #tours .btn{
+   width: 100%;
+   max-width: 300px;
+  background: var(--accent-cool);
+  color: black;
+  border: none;
+  border-radius: 30px;
+  font-family: var(--font-body);
+  padding: 5px;
+  margin-bottom: 10px;
+  display: inline-box;
+ }
+ 
+ a #interviews{
+   color: var(--accent-cool);
+ }
+ 
+ 
+ /*mini-player*/
+ .mini-player{
+   position: fixed;
+   bottom: 0px;
+   left: 0px;
+   width: 100%;
+   background: #111111;
+   border-top: 1px solid var(--accent-cool);
+   padding: 30px 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   border-radius: 10px;
+ }
+ .mini-player p{
+   white-space: nowrap;
+   overflow: hidden;
+   font-family: var(--font-body);
+   font-size: 17px;
+   max-width: 150px;
+ }
+ .mini-player p span {
+   display: inline-block;
+   animation: marquee 6s linear infinite;
+ }
+ @keyframes marquee {
+   0% {transform: translateX(100%);}
+   100% {transform: translateX(-100%);}
+ }
+ 
+ 
+
+.mini-player button{
+  background: var(--accent);
+  color: black;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 10px;
+  font-family: var(--font-body);
+  outline: none;
+  transition: all ease-in-out .1s;
+}
+.mini-player button:hover{
+  background: transparent;
+  border: 1px solid var(--accent-cool);
+  color: var(--accent-cool);
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-family: var(--font-body);
+  margin-bottom: 5px;
+}
