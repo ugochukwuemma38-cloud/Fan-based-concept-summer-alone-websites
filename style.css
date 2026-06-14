@@ -255,3 +255,32 @@ background: var(--accent);
   font-family: var(--font-body);
   margin-bottom: 5px;
 }
+
+   @media (min-width: 992px){
+  h1{
+    font-size: 100px;
+  }
+  
+  #hero p{
+    font-size: 36px;
+  }
+  #bio .col-lg-6 {
+    max-width: 700px;
+  }
+  
+  #bio h2{
+    font-size: 66px;
+  }
+  #MERCH h2{
+    font-size: 66px;
+  }
+  #tours h2{
+    font-size: 66px;
+  }
+  #tours h4{
+    font-size: 33px;
+  }
+  #tours p{
+    font-size: 22px;
+  }
+   }
