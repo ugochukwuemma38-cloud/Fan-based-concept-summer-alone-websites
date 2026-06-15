@@ -229,16 +229,6 @@ background: var(--accent);
  a #interviews{
    color: var(--accent-cool);
  }
-
-.tour-link {
- color: #A0B4C8;
-  text-decoration: none;
-  transition: .3s ease;
-}
-.tour-link:hover{
-  color: var(--accent);
-}
- 
  
  /*mini-player*/
  .mini-player{
